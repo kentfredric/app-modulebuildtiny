@@ -288,6 +288,11 @@ my %actions = (
 		}
 		return 0;
 	},
+	mint => sub {
+		my @arguments = @_;
+		require App::ModuleBuildTiny::Mint;
+		return App::ModuleBuildTiny::Mint::mint_modulebuildtiny(@arguments);
+	},
 );
 
 sub modulebuildtiny {

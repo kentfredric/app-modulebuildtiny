@@ -1,5 +1,7 @@
 Revision history for App-ModuleBuildTiny
 
+          - Added mint command
+
 0.013     2016-05-17
           - Fix up for release engineering mistake
 
